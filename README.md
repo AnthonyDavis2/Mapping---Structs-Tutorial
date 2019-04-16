@@ -16,8 +16,8 @@
  <p> Creating a project called<em> assignment4</em> and enter the project/folder. While inside the folder use the <em>truffle init</em> command to init a project, this will create the structure of the project.</p>
 <pre>
                 <code>
-                  $ mkdir hello-ethereum-salon-contract
-                  $ cd hello-ethereum-salon-contract
+                  $ mkdir assignment4
+                  $ cd assignment4
                   $ truffle init
                 </code>
             </pre>
