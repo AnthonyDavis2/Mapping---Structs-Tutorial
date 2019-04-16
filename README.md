@@ -71,3 +71,4 @@ contract Courses {
  <h3>Testing the contract.</h3> 
 </li>
 </ol>
+<h6>Anthony Davis</h6>
