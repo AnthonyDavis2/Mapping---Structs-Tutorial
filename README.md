@@ -66,6 +66,8 @@ contract Courses {
 }
 </code>
 </pre>
-
+</li>
+<li>
+ <h3>Testing the contract.</h3> 
 </li>
 </ol>
