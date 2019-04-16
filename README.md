@@ -1,5 +1,5 @@
 <h1>Solidity Mappings & Structs tutorial</h1>
-<p>Making the contract that's at the end of <a href="">Solidity Mappings & Structs tutorial</a>. This contract should be compatible with solidity 0.5 or higher.</p>
+<p>Making the contract that's at the end of <a href="https://coursetro.com/posts/code/102/Solidity-Mappings-&-Structs-Tutorial">Solidity Mappings & Structs tutorial</a>. This contract should be compatible with solidity 0.5 or higher.</p>
 <h2>Process:</h2>
 <ol>
 <li>
@@ -30,7 +30,7 @@
                   $ truffle create contract Courses  
                 </code>
             </pre>
-<p>When following the <a href="">tutorial</a>, there are a few things we need to change within our own contract. We need to change the solidity version the contract uses. Since we are changing the version, we'll need to fix the syntax in a few lines to prevent error(s) when compiling.</p>
+<p>When following the <a href="https://coursetro.com/posts/code/102/Solidity-Mappings-&-Structs-Tutorial">tutorial</a>, there are a few things we need to change within our own contract. We need to change the solidity version the contract uses. Since we are changing the version, we'll need to fix the syntax in a few lines to prevent error(s) when compiling.</p>
 <br>
 <p>Fixed contract with solidity version 0.5</p>
 <pre>
