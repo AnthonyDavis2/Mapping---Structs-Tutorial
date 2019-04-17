@@ -103,6 +103,7 @@ contract Courses {
 </pre>
 <p>Output:</p>
 <img src="assignment4/screenshots/setInstructor.png" title="testing setInstructor()">
+ <hr>
  <p>Testing getInstructor function:</p>
  <pre>
  <code>
@@ -110,8 +111,9 @@ contract Courses {
 </code>
 </pre>
 <p>Output:</p>
-<img src="assignment4/screenshots/getInstructors.png" title="testing getInstructor()">
- <p>Testing getInstructors function:</p>
+<img src="assignment4/screenshots/getInstructor.png" title="testing getInstructor()">
+ <hr>
+<p>Testing getInstructors function:</p>
  <pre>
  <code>
   > Courses.deployed().then(function(instance){return instance.getInstructors();})
@@ -119,6 +121,7 @@ contract Courses {
 </pre>
 <p>Output:</p>
 <img src="assignment4/screenshots/getInstructorss.png" title="testing getInstructors()">
+ <hr>
  <p>Testing countInstructors function:</p>
  <pre>
  <code>
