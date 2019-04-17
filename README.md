@@ -74,7 +74,7 @@ contract Courses {
  <code>
  $ truffle compile
  $ truffle migrate --reset
- $ truffle test
+ $ truffle develop
  </code>
  </pre>
 </li>
