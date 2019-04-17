@@ -101,24 +101,32 @@ contract Courses {
   > Courses.deployed().then(function(instance){return instance.setInstructor("0x8030bffef2c19e3a1b9751a0476d50b3ec0878a6",21,"Tony","Tiger");})
 </code>
 </pre>
+<p>Output:</p>
+<img src="screenshots/setInstructor" title="testing setInstructor()">
  <p>Testing getInstructor function:</p>
  <pre>
  <code>
   > Courses.deployed().then(function(instance){return instance.getInstructor("0x8030bffef2c19e3a1b9751a0476d50b3ec0878a6");})
 </code>
 </pre>
+<p>Output:</p>
+<img src="screenshots/getInstructors" title="testing getInstructor()">
  <p>Testing getInstructors function:</p>
  <pre>
  <code>
   > Courses.deployed().then(function(instance){return instance.getInstructors();})
 </code>
 </pre>
+<p>Output:</p>
+<img src="screenshots/getInstructorss" title="testing getInstructors()">
  <p>Testing countInstructors function:</p>
  <pre>
  <code>
   > Courses.deployed().then(function(instance){return instance.countInstructors();})
 </code>
 </pre>
+<p>Output:</p>
+<img src="screenshots/countInstructors" title="testing countInstructors()">
 </li>
 </ol>
 <h6>Anthony Davis</h6>
