@@ -8,6 +8,10 @@ contract('Courses', function(accounts) {
     done();
   });
 
+  // it("returning instructor count",async function() {
+  //   const result = await Courses.countInstructors.call();
+  //   assert.isTrue(result >= 0);
+  // });
   // it("Get Instructor", function() {
   //   return Courses.deployed().then(function(instance){
   //     return instance.countInstructors()
