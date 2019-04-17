@@ -102,7 +102,7 @@ contract Courses {
 </code>
 </pre>
 <p>Output:</p>
-<img src="screenshots/setInstructor" title="testing setInstructor()">
+<img src="assignment4/screenshots/setInstructor.png" title="testing setInstructor()">
  <p>Testing getInstructor function:</p>
  <pre>
  <code>
@@ -110,7 +110,7 @@ contract Courses {
 </code>
 </pre>
 <p>Output:</p>
-<img src="screenshots/getInstructors" title="testing getInstructor()">
+<img src="assignment4/screenshots/getInstructors.png" title="testing getInstructor()">
  <p>Testing getInstructors function:</p>
  <pre>
  <code>
@@ -118,7 +118,7 @@ contract Courses {
 </code>
 </pre>
 <p>Output:</p>
-<img src="screenshots/getInstructorss" title="testing getInstructors()">
+<img src="assignment4/screenshots/getInstructorss.png" title="testing getInstructors()">
  <p>Testing countInstructors function:</p>
  <pre>
  <code>
@@ -126,7 +126,7 @@ contract Courses {
 </code>
 </pre>
 <p>Output:</p>
-<img src="screenshots/countInstructors" title="testing countInstructors()">
+<img src="assignment4/screenshots/countInstructors.png" title="testing countInstructors()">
 </li>
 </ol>
 <h6>Anthony Davis</h6>
