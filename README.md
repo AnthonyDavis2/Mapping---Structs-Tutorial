@@ -69,7 +69,7 @@ contract Courses {
 </li>
 <li>
  <h3>Testing the contract.</h3> 
- <p>To test the contract you will need to complete the following code. <em>Truffle test</em> will excute the test javascript file which we will have to code to test our functions within our smart contract.</p>
+ <p>To test the contract you will need to complete the following code. <em>Truffle test</em> will excute the test javascript file known as <em>Courses.js</em>, which we will have to code to test our functions within our smart contract.</p>
  <pre>
  <code>
  $ truffle compile
