@@ -4,32 +4,32 @@
 <ol>
 <li>
  <h3>Installing solidity and truffle using npm.</h3>
-            <pre>
-                <code>
-                    $ npm i -g solc
-                    $ npm i -g truffle
-                </code>
-            </pre>
+ <pre>
+<code>
+ $ npm i -g solc
+ $ npm i -g truffle
+</code>
+</pre>
 </li>
 <li>
 <h3>Creating a project.</h3>
  <p> Creating a project called<em> assignment4</em> and enter the project/folder. While inside the folder use the <em>truffle init</em> command to init a project, this will create the structure of the project.</p>
 <pre>
-                <code>
-                  $ mkdir assignment4
-                  $ cd assignment4
-                  $ truffle init
-                </code>
-            </pre>
+<code>
+ $ mkdir assignment4
+ $ cd assignment4
+ $ truffle init
+</code>
+</pre>
 </li>
 <li>
 <h3>Creating contract.</h3>
 <p>Creating a contract called <em>Courses</em> inside of the contract folder using truffle. After this command the contracts folder will have two files inside called <em>Courses.sol</em> and <em>Migrations.sol</em>.</p>
-            <pre>
-                <code>
-                  $ truffle create contract Courses  
-                </code>
-            </pre>
+<pre>
+<code>
+ $ truffle create contract Courses  
+</code>
+</pre>
 <p>When following the <a href="https://coursetro.com/posts/code/102/Solidity-Mappings-&-Structs-Tutorial">tutorial</a>, there are a few things we need to change within our own contract. We need to change the solidity version the contract uses. Since we are changing the version, we'll need to fix the syntax in a few lines to prevent error(s) when compiling.</p>
 <br>
 <p>Fixed contract with solidity version 0.5</p>
@@ -68,15 +68,57 @@ contract Courses {
 </pre>
 </li>
 <li>
- <h3>Testing the contract.</h3> 
- <p>To test the contract you will need to complete the following code. <em>Truffle test</em> will excute the test javascript file known as <em>Courses.js</em>, which we will have to code to test our functions within our smart contract.</p>
+ <h3>Creating file in migration.</h3>
+ <p>Inside the migration folder create a javascript file named <em>2_mig</em>. This file is used by truffle so truffle knows what to compile. The file should contain the following code:</p>
  <pre>
  <code>
+ var ton = artifacts.require("Courses"); 
+ module.exports = function(deployer) { 
+	 deployer.deploy(ton); 
+};
+ </code>
+ </pre>
+</li>
+<li>
+ <h3>Testing the contract.</h3> 
+ <p>To test the contract you will need to complete the following code. <em>Truffle develop</em> allows a user to test and debug the functions within the contract.</p>
+<pre>
+<code>
  $ truffle compile
  $ truffle migrate --reset
  $ truffle develop
+</code>
+</pre>
+ <p>Once inside the truffle develop environment we need to compile the contract.</p>
+ <pre>
+ <code>
+  > migrate --reset --all
  </code>
  </pre>
+ <p>Testing setInstructor function:</p>
+ <pre>
+ <code>
+  > Courses.deployed().then(function(instance){return instance.setInstructor("0x8030bffef2c19e3a1b9751a0476d50b3ec0878a6",21,"Tony","Tiger");})
+</code>
+</pre>
+ <p>Testing getInstructor function:</p>
+ <pre>
+ <code>
+  > Courses.deployed().then(function(instance){return instance.getInstructor("0x8030bffef2c19e3a1b9751a0476d50b3ec0878a6");})
+</code>
+</pre>
+ <p>Testing getInstructors function:</p>
+ <pre>
+ <code>
+  > Courses.deployed().then(function(instance){return instance.getInstructors();})
+</code>
+</pre>
+ <p>Testing countInstructors function:</p>
+ <pre>
+ <code>
+  > Courses.deployed().then(function(instance){return instance.countInstructors();})
+</code>
+</pre>
 </li>
 </ol>
 <h6>Anthony Davis</h6>
