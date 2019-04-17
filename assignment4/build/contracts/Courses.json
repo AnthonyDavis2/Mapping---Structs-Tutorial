@@ -18,13 +18,15 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x8eb5234c"
     },
     {
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor"
+      "type": "constructor",
+      "signature": "constructor"
     },
     {
       "constant": false,
@@ -50,7 +52,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x46428adc"
     },
     {
       "constant": true,
@@ -64,7 +67,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x5eff7dae"
     },
     {
       "constant": true,
@@ -91,7 +95,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x0429e372"
     },
     {
       "constant": true,
@@ -105,7 +110,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0xca8ab933"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"_address\",\"type\":\"address\"}],\"name\":\"getInstructor\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"string\"},{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_address\",\"type\":\"address\"},{\"name\":\"_age\",\"type\":\"uint256\"},{\"name\":\"_fName\",\"type\":\"string\"},{\"name\":\"_lName\",\"type\":\"string\"}],\"name\":\"setInstructor\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getInstructors\",\"outputs\":[{\"name\":\"\",\"type\":\"address[]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"instructorAccts\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"countInstructors\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/nkosiakbar/code2018/blockchain/assignment4/contracts/Courses.sol\":\"Courses\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/nkosiakbar/code2018/blockchain/assignment4/contracts/Courses.sol\":{\"keccak256\":\"0xe4fc5667e73f62bf57f53833ed1c06bfaa1028e400944b631c58dc9a6e01a903\",\"urls\":[\"bzzr://3fa45f308519b0d630c18f4199049d656b5cefb3cba42f57b3ce8dbc2775e82f\"]}},\"version\":1}",
@@ -2669,9 +2675,16 @@
     "name": "solc",
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x9D2C5227A76265c0422Ef4656269E93064d81931",
+      "transactionHash": "0x0c4a565fc95938d29d5b9a2766e65708ae9c3c6cc80d9b77d0216a376015239d"
+    }
+  },
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-15T16:00:28.807Z",
+  "updatedAt": "2019-04-17T18:09:53.976Z",
   "devdoc": {
     "methods": {}
   },
